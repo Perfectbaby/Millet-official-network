@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+
+.header .container {
+    height: 100%;
+    width: 1226px;
+    margin: auto;
+}
+
+.header .container .shopcart {
+    cursor: pointer;
+    background: url("images/c1.png")no-repeat;
+    height: 40px;
+    width: 122px;
+}
+
+.header .container .shopcart:hover{
+    background: url("images/c2.png")no-repeat;
+}
+
+.header .container .dropdown {
+    float: right;
+    position: relative;
+    display: inline-block;
+}
+
+.header .container .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    font-size: 10px;
+    color: dimgrey;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 42px 80px;
+}
+
+.header .container .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.header .container .menu li:first-child {
+    margin-left: -15px;
+}
+
+.header .container .menu li{
+    float: left;
+    padding-top: 13px;
+    list-style-type: none;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.header .container .menu2 li:first-child{
+    margin-right: 15px;
+}
+
+.header .container .menu2 li{
+    float: right;
+    padding-top: 13px;
+    list-style-type: none;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+a{
+    padding-left: 15px;
+    color: darkgrey;
+    text-decoration:none;
+}
+
+a:hover{
+    color: white;
+}
+
+.title{
+    width: 100%;
+    height: 102px;
+}
+
+.title .container{
+    height: 100%;
+    width: 1226px;
+    margin: auto;
+}
+
+.title .container .logo{
+    background: url("images/logo.png")no-repeat;
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    float: left;
+    position: relative;
+    top: 24px;
+}
+
+.title .container .mi{
+    background: url("images/mi2.gif")no-repeat;
+    cursor: pointer;
+    width: 163px;
+    height: 66px;
+    float: left;
+    position: relative;
+    top: 18px;
+    left: 16px;
+}
+
+.title .container .menu3 li{
+    float: left;
+    font-size: 16px;
+    cursor: pointer;
+    padding-top: 41px;
+    list-style-type: none;
+    margin-left: 12px;
+}
+
+c{
+    padding-left: 15px;
+    color: black;
+    text-decoration:none;
+}
+
+c:hover{
+    color: orangered;
+}
+
+.home{
+    width: 100%;
+    height: 460px;
+}
+
+.home .container{
+    margin: auto;
+    width: 1226px;
+    height: 100%;
+    background: url("img/baner.jpg")no-repeat;
+    background-size: 100%100%;
+}
+.home .container .left{
+    width: 234px;
+    padding: 20px 0px;
+}
+
+.home .container .left .menu4 li{
+    float: left;
+    font-size: small;
+    cursor: pointer;
+    list-style-type: none;
+    width: 234px;
+    margin: 0;
+    padding: 0;
+}
+
+
+d{
+    padding: 12.5px 30px;
+    display: block;
+    color: white;
+    text-decoration:none;
+}
+
+d:hover{
+    background-color: darkorange;
+}
+
+.xhome{
+    height: 185px;
+    width: 100%;
+}
+
+.xhome .container{
+    height: 100%;
+    width: 1226px;
+    margin: auto;
+}
+
+.xhome .container .right{
+    width: 100%;
+    height: 100%;
+}
+
+.xhome .container .right .left{
+    float: left;
+    margin: 14px 0px 0px 0px;
+    cursor: pointer;
+}
+
+.xhome .container .right .move{
+    position: relative;
+    left: 7px;
+}
+
+.xhome .container .right .img{
+    float: left;
+    margin: 14px 0px 0px 12px;
+    cursor: pointer;
+    background-size: 100% 100%;
+}
+
+.xhome .container .right .img:hover{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+
+.phone{
+    height: 875px;
+    width: 100%;
+    background-color: #f5f5f5;
+    position: relative;
+    top: 25px;
+}
+
+.phone .title{
+    height: 50px;
+    width: 1226px;
+    margin: auto;
+}
+
+.phone .title .move{
+    font-size: 24px;
+}
+
+.phone .container{
+    margin: auto;
+    width: 1226px;
+    height: 618px;
+    position: relative;
+    top: 25px;
+}
+.phone .container .right{
+    float: right;
+}
+
+.phone .container .right .img{
+    float: right;
+    margin: 0px 0px 15px 12px;
+    cursor: pointer;
+    background-size: 100% 100%;
+}
+
+.phone .container .right .img:hover{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.phone .container .right .left{
+    float: left;
+    cursor: pointer;
+}
+
+.phone .dropdown{
+    height: 100%;
+    width: 1226px;
+    margin: auto;
+}
+.phone .dropdown .advertisement{
+    margin: 55px 0px;
+    cursor: pointer;
+
+}
+
+.over{
+    height: 195px;
+    width: 1226px;
+    margin: auto;
+    cursor: pointer;
+}
+.over .dropdown{
+    margin: 50px 0px;
+}
